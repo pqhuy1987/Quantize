@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		973C93921E802B55001BD224 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973C93911E802B55001BD224 /* Media.xcassets */; };
 		F75D7E6A1683862800EFC829 /* OBMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D7E691683862800EFC829 /* OBMusicPlayer.m */; };
 		F77C70551698B964006EFAA8 /* OBBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77C70531698B964006EFAA8 /* OBBuilderViewController.m */; };
 		F77C70561698B964006EFAA8 /* OBBuilderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77C70541698B964006EFAA8 /* OBBuilderViewController.xib */; };
@@ -35,8 +36,6 @@
 		F7AC2E5D163DABBD0052BA4D /* OBMenuBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E5A163DABBD0052BA4D /* OBMenuBubble.m */; };
 		F7AC2E60163DAF3D0052BA4D /* OBMenuBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E5F163DAF3D0052BA4D /* OBMenuBackgroundView.m */; };
 		F7AC2E65163DB4E60052BA4D /* OBUserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC2E64163DB4E60052BA4D /* OBUserPreferences.m */; };
-		F7BEAEFE16838A7F006F3B23 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BEAEFD16838A7F006F3B23 /* icon@2x.png */; };
-		F7BEAF0116838A8A006F3B23 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BEAF0016838A8A006F3B23 /* icon.png */; };
 		F7BEAF0A16839C3A006F3B23 /* OBArcadeLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF0416839C3A006F3B23 /* OBArcadeLevelView.m */; };
 		F7BEAF0B16839C3A006F3B23 /* OBArcadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF0616839C3A006F3B23 /* OBArcadeView.m */; };
 		F7BEAF0C16839C3A006F3B23 /* OBArcadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BEAF0816839C3A006F3B23 /* OBArcadeViewController.m */; };
@@ -56,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		973C93911E802B55001BD224 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F75D7E681683862800EFC829 /* OBMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBMusicPlayer.h; path = sound/OBMusicPlayer.h; sourceTree = "<group>"; };
 		F75D7E691683862800EFC829 /* OBMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBMusicPlayer.m; path = sound/OBMusicPlayer.m; sourceTree = "<group>"; };
 		F77C70521698B964006EFAA8 /* OBBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBBuilderViewController.h; path = builder/OBBuilderViewController.h; sourceTree = "<group>"; };
@@ -100,8 +100,6 @@
 		F7AC2E62163DB4E60052BA4D /* OBPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBPreferences.h; sourceTree = "<group>"; };
 		F7AC2E63163DB4E60052BA4D /* OBUserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBUserPreferences.h; sourceTree = "<group>"; };
 		F7AC2E64163DB4E60052BA4D /* OBUserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBUserPreferences.m; sourceTree = "<group>"; };
-		F7BEAEFD16838A7F006F3B23 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		F7BEAF0016838A8A006F3B23 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F7BEAF0316839C3A006F3B23 /* OBArcadeLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBArcadeLevelView.h; path = arcade/OBArcadeLevelView.h; sourceTree = "<group>"; };
 		F7BEAF0416839C3A006F3B23 /* OBArcadeLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBArcadeLevelView.m; path = arcade/OBArcadeLevelView.m; sourceTree = "<group>"; };
 		F7BEAF0516839C3A006F3B23 /* OBArcadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBArcadeView.h; path = arcade/OBArcadeView.h; sourceTree = "<group>"; };
@@ -177,10 +175,9 @@
 		F7AC2E13163DA9CA0052BA4D = {
 			isa = PBXGroup;
 			children = (
+				973C93911E802B55001BD224 /* Media.xcassets */,
 				F7F5AE131684F6E000460872 /* Default@2x.png */,
 				F7F5AE101684F6CD00460872 /* Default.png */,
-				F7BEAF0016838A8A006F3B23 /* icon.png */,
-				F7BEAEFD16838A7F006F3B23 /* icon@2x.png */,
 				F7AC2E52163DAAD60052BA4D /* AVFoundation.framework */,
 				F7AC2E50163DAAD20052BA4D /* AudioToolbox.framework */,
 				F7AC2E4E163DAACE0052BA4D /* QuartzCore.framework */,
@@ -364,6 +361,11 @@
 				CLASSPREFIX = OB;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Orange Bytes";
+				TargetAttributes = {
+					F7AC2E1D163DA9CA0052BA4D = {
+						DevelopmentTeam = JQNK74493B;
+					};
+				};
 			};
 			buildConfigurationList = F7AC2E18163DA9CA0052BA4D /* Build configuration list for PBXProject "quanta" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -390,13 +392,12 @@
 				F7AC2E2D163DA9CA0052BA4D /* InfoPlist.strings in Resources */,
 				F7AC2E35163DA9CA0052BA4D /* Default.png in Resources */,
 				F7AC2E37163DA9CA0052BA4D /* Default@2x.png in Resources */,
+				973C93921E802B55001BD224 /* Media.xcassets in Resources */,
 				F7AC2E39163DA9CA0052BA4D /* Default-568h@2x.png in Resources */,
 				F7AC2E3F163DA9CA0052BA4D /* OBMenuViewController.xib in Resources */,
 				F7AC2E4B163DAAAC0052BA4D /* OBMainBackground.png in Resources */,
 				F7AC2E4C163DAAAC0052BA4D /* OBMainBackground@2x.png in Resources */,
 				F7AC2E4D163DAAAC0052BA4D /* OBMusic0.aif in Resources */,
-				F7BEAEFE16838A7F006F3B23 /* icon@2x.png in Resources */,
-				F7BEAF0116838A8A006F3B23 /* icon.png in Resources */,
 				F7BEAF0D16839C3A006F3B23 /* OBArcadeViewController.xib in Resources */,
 				F7F5AE111684F6CD00460872 /* Default.png in Resources */,
 				F7F5AE141684F6E100460872 /* Default@2x.png in Resources */,
@@ -512,9 +513,13 @@
 		F7AC2E43163DA9CA0052BA4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "quanta/quanta-Prefix.pch";
 				INFOPLIST_FILE = "quanta/quanta-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.qt.100;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				WRAPPER_EXTENSION = app;
 			};
@@ -523,9 +528,13 @@
 		F7AC2E44163DA9CA0052BA4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "quanta/quanta-Prefix.pch";
 				INFOPLIST_FILE = "quanta/quanta-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.qt.100;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				WRAPPER_EXTENSION = app;
 			};
